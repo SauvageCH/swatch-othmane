@@ -1,0 +1,103 @@
+header{height:160px;
+width:100%;
+background-attachment: fixed;
+}
+img{transition: all 0.5s}
+.i1{
+    position:absolute;
+    top:0px;
+    left:470px;
+    height:150px;
+    width:30%;
+    animation-name: swatch;
+    animation-duration: 6s;
+}
+.i1:hover{transform:scale(1.1,1.1)}
+.i2:hover{transform:scale(1.1,1.1)}
+.i3:hover{transform:scale(1.1,1.1)}
+.i4:hover{transform:scale(1.1,1.1)}
+@keyframes swatch {
+    from{transform: translateX(-1000px);}
+    to{transform: translateX(0px) ;}
+}
+#bg1{background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+ul{list-style-type: none;
+display:flex;
+align-items:center;
+justify-content: space-around;}
+#li1 {
+font-size:larger;
+font-family:fantasy;
+text-decoration: none;
+color:rgb(255, 4, 4);
+}
+li{animation-name: li;
+animation-duration: 6s;
+transition: all 0.5s;}
+li:hover{transform: scale(2,2);}
+@keyframes li {
+    from{transform:translateY(-1000px);}
+    to{transform:translateY(0px);}
+}
+#li2 {font-size:larger;
+    font-family:fantasy;
+    text-decoration: none;
+    color:rgba(255, 125, 125, 0.904);}
+#li3 {font-size:larger;
+        font-family:fantasy;
+        text-decoration: none;
+        color:rgb(0, 204, 255);}
+#li1:hover{color:rgb(128, 0, 0);
+}
+#li2:hover{color:rgba(204, 81, 101, 0.884);}
+#li3:hover{color:rgb(0, 255, 157);}
+#li1:active{text-decoration:  underline;
+}
+#li2:active{text-decoration:  underline;}
+#li3:active{text-decoration:  underline;}
+.i2{position:relative;
+top:0px;
+left:50px;
+width:400px;
+height:400px;
+border:3px brown outset;
+border-radius: 10px 10px 10px 10px;
+animation-name:i2;
+animation-duration: 6s;
+}
+@keyframes i2 {
+    from{transform: translateY(1000px);}
+    to{transform: translateY(0px);}
+}
+.i3{position:relative;
+top:0px;
+left:90px;
+width:400px;
+height:400px;
+border:3px pink outset;
+border-radius: 10px 10px 10px 10px;
+animation-name:i3;
+animation-duration: 6s;}
+@keyframes i3 {
+    from{transform: translateY(1000px);}
+    to{transform: translateY(0px);}}
+.i4{position:relative;
+top:0px;
+left:130px;
+width:400px;
+height:400px;
+border:3px green outset;
+border-radius: 10px 10px 10px 10px;
+animation-name:i4;
+animation-duration: 6s;}
+@keyframes i4 {
+    from{transform: translateY(1000px);}
+    to{transform: translateY(0px);}}
+
+
+
+

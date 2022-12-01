@@ -1,0 +1,12 @@
+.swatch{height:400px;
+width:1000px;
+animation-name: swatch;
+animation-duration:2s;
+margin-top:100px;
+margin-left:200px;}
+@keyframes swatch {
+    from{transform: translateX(-2000px);}
+    to{transform: translateX(0px) ;}}
+    body{background-image:url(bg3.jpg);
+        background-size: cover;
+    }
